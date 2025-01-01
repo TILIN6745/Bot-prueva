@@ -100,9 +100,9 @@ global.comunidad1 = 'https://whatsapp.com/channel/0029VauK3kA4SpkPQyez1z00' //Co
 global.channel = 'https://whatsapp.com/channel/0029VauK3kA4SpkPQyez1z00' //Canal Oficial
 global.channel2 = 'https://whatsapp.com/channel/0029VauK3kA4SpkPQyez1z00' //Canal test
 global.yt = 'https://www.youtube.com/@tilin.ff22' //Canal De Youtube
-global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot' //Github Oficial
-global.correo = 'thekingdestroy507@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T';
+global.md = 'https://github.com/TILIN6745/Bot-prueva.git' //Github Oficial
+global.correo = 'jm293229@gmail.com'
+global.cn ='https://whatsapp.com/channel/0029VauK3kA4SpkPQyez1z00';
 
 var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'Linda Mañana'; break; case 1: hour = 'Linda Mañana'; break; case 2: hour = 'Linda Mañana'; break; case 3: hour = 'Linda Mañana'; break; case 4: hour = 'linda mañana'; break; case 5: hour = 'Linda Mañana'; break; case 6: hour = 'Linda Mañana'; break; case 7: hour = 'Linda Mañana'; break; case 8: hour = 'Linda Mañana'; break; case 9: hour = 'Linda Mañana'; break; case 10: hour = 'Lindo Dia'; break; case 11: hour = 'Lindo Dia'; break; case 12: hour = 'Lindo Dia'; break; case 13: hour = 'Lindo Dia'; break; case 14: hour = 'Linda Tarde'; break; case 15: hour = 'Linda Tarde'; break; case 16: hour = 'Linda Tarde'; break; case 17: hour = 'Linda Tarde'; break; case 18: hour = 'Linda Noche'; break; case 19: hour = 'Linda Noche'; break; case 20: hour = 'Linda Noche'; break; case 21: hour = 'Linda Noche'; break; case 22: hour = 'Linda Noche'; break; case 23: hour = 'Linda Noche'; break;}
 global.saludo = '🍭' + hour;
@@ -117,8 +117,8 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nYuki - Bot`;
-global.nomorown = '584120346669';
+global.wm2 = `${dia} ${fecha}\ntilin - Bot`;
+global.nomorown = '5217204765690';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
