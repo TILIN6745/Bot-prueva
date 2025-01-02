@@ -588,7 +588,7 @@ if (settingsREAD.autoread2) await this.readMessages([m.key])
 //this.sendPresenceUpdate('recording', m.chat);
 
 if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|ai|megumin|megu|a|s)/gi)) {
-let emot = pickRandom(["🌹", "🌷", "🌸","🌼", "🌺", "💐", "🌻", "🏵️", "🥀", "💮", "🍁", "💖", "💞", "💕", "💋"])
+let emot = pickRandom(["🥷", "😉", "🥱","😁", "😛", "😜", "🫠", "😆", "🥳", "🤔", "🫡", "😶‍🌫️", "🤗", "🧐", "😋🧐"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -741,13 +741,13 @@ const msg = {
 rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> Destroy.', 
 owner: '「⚜️」 *Esta función solo puede ser usada por mi desarrollador.*', 
 mods: '「⚜️」 *Esta función solo puede ser usada por mis desarrolladores.*', 
-premium: '「🌷」 *Esta función solo es para usuarios Premium.*', 
-group: '「🍒」 *Esta funcion solo puede ser ejecutada en grupos.*', 
-private: '「🍒」 *Esta función solo puede ser usada en chat privado.*', 
-admin: '「🌷」 *Este comando solo puede ser usado por admins.*', 
-botAdmin: '「🌸」 *Para usar esta función debo ser admin.*', 
-unreg: '「🌹」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_‼️ Ejemplo_* : */reg Destroy.1000*',
-restrict: '「🌸」 *Esta característica esta desactivada.*'
+premium: '「🧑‍🦱」 *Esta función solo es para usuarios Premium.*', 
+group: '「🙎」 *Esta funcion solo puede ser ejecutada en grupos.*', 
+private: '「👍」 *Esta función solo puede ser usada en chat privado.*', 
+admin: '「🫶」 *Este comando solo puede ser usado por admins.*', 
+botAdmin: '「🤙」 *Para usar esta función debo ser admin.*', 
+unreg: '「✌️」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_‼️ Ejemplo_* : */reg Tilin.23*',
+restrict: '「✌️」 *Esta característica esta desactivada.*'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 const file = global.__filename(import.meta.url, true);
